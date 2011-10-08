@@ -1,0 +1,14 @@
+defaults: &defaults
+  app_id: 118113301571962
+  secret: def7e82bf15b13f114970eb6251c0ffb
+  api_key: 118113301571962
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+
+production:
+  <<: *defaults
